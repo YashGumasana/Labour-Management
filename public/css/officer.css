@@ -1,0 +1,29 @@
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    padding-top: 1px;
+    margin: 13px 20px;
+    float: left;
+    list-style: none;
+}
+
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar input{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 3px 20px;
+    margin-left: 750px;
+    width: 129px;
+}

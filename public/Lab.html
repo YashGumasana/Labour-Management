@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="./css/lab.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+  <div class="mainbox">
+    <center>
+      <h2 class="title">Uploading Document</h2>
+    </center>
+    <form action="#" id="Document-form">
+      <div class="b1">
+
+        <label for="adhar" class="titles">Adhar Card</label>
+        <p>Once you submit your adhar card, the upload status will show as pending. It will be sent for review to our
+          verification team. The status will show as pending until the verification has been completed. If you upload
+          multiple times, the latest document uploaded will override the previous uploads.</p>
+        <div>
+          <input type="file" id="adhar" required />
+        </div>
+      </div>
+      <div class="b1">
+
+        <label for="acc" class="titles">Acount Details</label>
+        <p>Once you submit your account details, the upload status will show as pending. It will be sent for review to
+          our
+          verification team. The status will show as pending until the verification has been completed. If you upload
+          multiple times, the latest document uploaded will override the previous uploads.</p>
+        <div>
+          <input type="file" id="account" required />
+        </div>
+      </div>
+      <div class="b1">
+
+        <label for="add" class="titles">Address</label>
+        <p>Once you submit your address, the upload status will show as pending. It will be sent for review to our
+          verification team. The status will show as pending until the verification has been completed. If you upload
+          multiple times, the latest document uploaded will override the previous uploads.</p>
+        <div>
+          <input type="file" id="address" required />
+        </div>
+      </div>
+      <div class="b1">
+
+        <label for="job" class="titles">Current job details</label>
+        <p>Once you submit your current job details, the upload status will show as pending. It will be sent for review
+          to
+          our verification team. The status will show as pending until the verification has been completed. If you
+          upload
+          multiple times, the latest document uploaded will override the previous uploads.</p>
+        <div>
+          <input type="file" id="job" required />
+        </div>
+      </div>
+      <!-- <div class="button-submit">
+      <input type="submit" value="Submit">
+    </div> -->
+      <!-- <button type="submit" id="btn" class="button-submit">Submit</button> -->
+      <div class="cntr">
+        <button class="button-submit" id="btn" type="submit" value="Submit">Submit</button>
+      </div>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./js/lab.js"></script>
+  </div>
+</body>
+
+</html>
